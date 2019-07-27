@@ -3,17 +3,11 @@ email: info@sdv.ml
 # url: https://sdv.ml
 url: https://sdvml.github.io
 
-description: "A collection of open source frameworks for synthetic data generation."
+description: "A collection of open source frameworks for synthetic data generation"
 keywords: "synthetic data, machine learning, deep learning, generative adversarial networks"
 title: "Synthetic Data Vault"
-meta_author: Data to AI Laboratory
+meta_author: MIT Data To AI Lab
 logo: SDV-logo-short.png
-
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 header:
   background: data-center-2.jpg
@@ -23,25 +17,29 @@ header:
 color:
   # primary: 18bc9c #80B3FF
   # primary: fafafa
-  light: fafafa
-  primary: 2c3e50
+  light: fafaff
+  primary: e2de60
   primary-dark: 233140 #A2122F
   # primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
   yellow: e2de60
 
+font:
+  text: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  header: Lato Bold,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
 # Footer settings
 footer:
   copyright: MIT Data To AI Lab
-  # location: Location
   social: Resources
   credits: Credits
 
-resources:
+links:
   github: http://github.com/HDI-Project/SDV
   book: https://hdi-project.github.io/SDV/
   stack-overflow: http://stackoverflow.com/questions/tagged/sdv
+  paper: https://dai.lids.mit.edu/wp-content/uploads/2018/03/SDV.pdf
 
 resources:
   - title: GitHub
@@ -53,11 +51,6 @@ resources:
   - title: Stack Overflow
     icon: stack-overflow
     url: http://stackoverflow.com/questions/tagged/sdv
-
-# Postal address (add as many lines as necessary)
-# address:
-#   - line: 3481 Melrose Place
-#   - line: Beverly Hills, CA 90210
 
 # Credits content
 credits: 'SDV is an open source project from <a href="https://dai.lids.mit.edu/">Data to AI Lab at MIT</a>.'
