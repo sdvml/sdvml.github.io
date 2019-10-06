@@ -1,1 +1,1 @@
-https://sdvml.github.io/freelancer
+sdv.ml
